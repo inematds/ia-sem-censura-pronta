@@ -21,11 +21,24 @@
     "mono-wt": "22a20781240709842853c669e2b69a3540e3ac9d"
   },
   "video": {
-    "estado": "aguardando-avatar",
+    "estado": "publicado",
     "canal": "lives7",
     "id_producao": "dois-kits-ia-prontos-video",
     "heygen_id": "905776c459714e2aaf4565b5bf170c6b",
-    "url": null
+    "url": "https://www.youtube.com/watch?v=TJ9omYZdIrE",
+    "mp4": "https://github.com/inematds/ia-privada-pronta/releases/download/video-v1.0.0/dois-kits-ia-prontos-video.mp4",
+    "duracao_segundos": 143.3,
+    "revisao": {
+      "veredito": "aprovado",
+      "nota": 8.5,
+      "defeitos": [],
+      "sugestoes": [
+        "Acrescentar captura real do terminal",
+        "Explicar abliterated na tela",
+        "Manter inema.club junto da pergunta final"
+      ]
+    }
   },
-  "modelos_descarregados": true
+  "modelos_descarregados": true,
+  "data_video": "2026-11-16"
 }

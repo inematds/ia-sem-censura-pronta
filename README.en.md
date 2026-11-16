@@ -4,6 +4,8 @@
 
 **🇧🇷 [Português](../../README.md) · 🇺🇸 [English](README.en.md) · 🇪🇸 [Español](../es/README.md)**
 
+[🎬 Video: talk to your AI without internet (audio in Portuguese).](https://www.youtube.com/watch?v=TJ9omYZdIrE)
+
 Full guide: https://inematds.github.io/ia-sem-censura-pronta/guia/en/
 
 **Real Linux validation:** execution without an external network, a contextual conversation, and shutdown of the dedicated processes were confirmed. All 14 software tests passed. The model answered correctly on two tested cases, got the private-kit account wrong (answer: 600; expected: 1000), and answered the debate topic. These results do not measure its overall quality. See [the complete results](../../verificacao/STATUS.md).

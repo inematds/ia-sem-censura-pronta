@@ -4,6 +4,8 @@
 
 **🇧🇷 [Português](README.md) · 🇺🇸 [English](README.en.md) · 🇪🇸 [Español](README.es.md)**
 
+[🎬 Vídeo: converse com sua IA sem internet (áudio em português).](https://www.youtube.com/watch?v=TJ9omYZdIrE)
+
 Guia completo: https://inematds.github.io/ia-sem-censura-pronta/guia/
 
 **Validação real em Linux:** execução sem rede externa, conversa com contexto e encerramento dos processos próprios confirmados. Os 14 testes de software passaram. O modelo acertou os três casos testados e respondeu ao tema de debate; isso não mede toda a sua qualidade. Veja [os resultados completos](verificacao/STATUS.md).
