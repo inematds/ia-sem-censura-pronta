@@ -1,0 +1,31 @@
+{
+  "data": "2026-11-15",
+  "repo": "https://github.com/inematds/ia-sem-censura-pronta",
+  "guia": "https://inematds.github.io/ia-sem-censura-pronta/guia/",
+  "idiomas": [
+    "pt",
+    "en",
+    "es"
+  ],
+  "telegram": {
+    "slug": "ia-sem-censura-pronta",
+    "grupo": "INEMA.INFRA",
+    "topico": "https://t.me/c/2491219310/1978",
+    "menu_msg": 1991,
+    "mensagens_conferidas": 12,
+    "menu_conferido": true
+  },
+  "portal": {
+    "portal-wt": "bf5e8e0bd8bc7b348eaba67d2ec4d0675212e3c2",
+    "buscas-wt": "47954358c1c63763bb7714fd6f727c1b1403cd56",
+    "mono-wt": "22a20781240709842853c669e2b69a3540e3ac9d"
+  },
+  "video": {
+    "estado": "aguardando-avatar",
+    "canal": "lives7",
+    "id_producao": "dois-kits-ia-prontos-video",
+    "heygen_id": "905776c459714e2aaf4565b5bf170c6b",
+    "url": null
+  },
+  "modelos_descarregados": true
+}
