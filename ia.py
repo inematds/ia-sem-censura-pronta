@@ -148,7 +148,7 @@ class Runtime:
         expected = self.cfg.get('digest_esperado')
         actual = str(found.get('digest', '')).removeprefix('sha256:')
         if expected and actual != expected:
-            raise KitError('O modelo mudou de digest. Confira os pesos e atualize perfil.json conscientemente; não vamos trocar o modelo silenciosamente.')
+            raise KitError(f'O modelo mudou de digest. Esperado: {expected}. Encontrado: {actual}. Confira a página oficial do modelo antes de decidir atualizar digest_esperado em perfil.json; se não puder confirmar, não prossiga.')
         return found
 
     def prepare(self):

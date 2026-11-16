@@ -1,8 +1,16 @@
 # IA sem censura pronta
 
-**Validação atual:**14 testes de software passaram. A execução com modelo real nesta produção aguarda autorização de carga de modelo e API local; veja [o estado da validação](verificacao/STATUS.md).
+[![IA sem censura pronta](guia/assets/banner.jpg)](https://inematds.github.io/ia-sem-censura-pronta/guia/)
 
-## O que entrega
+**🇧🇷 [Português](README.md) · 🇺🇸 [English](README.en.md) · 🇪🇸 [Español](README.es.md)**
+
+Guia completo: https://inematds.github.io/ia-sem-censura-pronta/guia/
+
+**Validação real em Linux:** execução sem rede externa, conversa com contexto e encerramento dos processos próprios confirmados. Os 14 testes de software passaram. O modelo acertou os três casos testados e respondeu ao tema de debate; isso não mede toda a sua qualidade. Veja [os resultados completos](verificacao/STATUS.md).
+
+## O que é
+
+Este kit gratuito executa um modelo publicado como abliterated: uma versão modificada para ter menos recusas. Serve para quem quer experimentar esse tipo de modelo funcionando, com conversa e leitura de texto. O modelo roda na máquina onde o kit é instalado, sem API externa de inferência. Você precisa de Python, Ollama e memória suficiente. Menos recusas não garante aceitar todo pedido nem acertar toda resposta.
 
 Este kit põe um modelo abliterated para conversar com você no próprio computador: uma versão publicada com menos restrições de resposta. O foco é executar esse modelo de verdade, não apenas explicar o assunto. O padrão é Huihui Qwen3.8-abliterated 27B. Ele também roda localmente neste kit; menos recusas e privacidade continuam sendo características diferentes.
 
@@ -13,7 +21,7 @@ Este kit põe um modelo abliterated para conversar com você no próprio computa
 - Git para clonar, ou [baixe o ZIP](https://github.com/inematds/ia-sem-censura-pronta/archive/refs/heads/main.zip) e extraia a pasta.
 - Python 3.10 ou superior: [instalador oficial](https://www.python.org/downloads/).
 - [Ollama instalado](https://ollama.com/download), no Linux, macOS ou Windows.
-- Para o modelo padrão: aproximadamente **18 GB de download**, **32 GB de RAM recomendados**, espaço livre para os pesos e recursos para o sistema. Contexto padrão2048; o consumo real depende do runtime. GPU é opcional: CPU funciona, com desempenho diferente.
+- Para o modelo padrão: aproximadamente **18 GB de download**, **32 GB de RAM recomendados**, espaço livre para os pesos e recursos para o sistema. Contexto padrão 2048; o consumo real depende do runtime. GPU é opcional: CPU funciona, com desempenho diferente.
 - No Linux, para o modo sem rede: `bubblewrap` e `iproute2`. O modo exige namespaces de usuário permitidos pelo sistema.
 
 Verifique antes de começar:
@@ -106,3 +114,9 @@ Esses testes usam um runtime simulado e não contam como teste de modelo. O test
 [Ollama: execução local e nuvem](https://docs.ollama.com/faq) · [API local de conversa](https://docs.ollama.com/api/chat) · [Modelo padrão](https://ollama.com/huihui_ai/Qwen3.8-abliterated:27b).
 
 Código do kit: MIT. Runtime e pesos seguem suas próprias licenças; os pesos não são redistribuídos aqui.
+
+## Se você baixou o ZIP
+
+Extraia a pasta. No Windows, abra a pasta que contém ia.py, clique na barra de endereço, digite powershell e pressione Enter. Execute os comandos Python do guia, usando py se necessário. Os atalhos preparar.cmd e conversar.cmd também funcionam com duplo clique. No Linux/macOS, abra Terminal e use cd para entrar na pasta extraída; o caminho depende de onde você salvou o ZIP. Não execute git clone se escolheu ZIP.
+
+Runtime é o programa que executa o modelo; digest é a identificação exata dos pesos; namespace de rede é uma rede separada para o processo no Linux. Se houver mudança de digest, o erro mostra os valores esperado e encontrado: confirme a versão na página oficial da tag antes de decidir atualizar digest_esperado no perfil.json. Sem confirmação, mantenha a proteção.
