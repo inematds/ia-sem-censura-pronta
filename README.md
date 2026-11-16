@@ -10,6 +10,7 @@ Este kit põe um modelo abliterated para conversar com você no próprio computa
 
 ## Requisitos
 
+- Git para clonar, ou [baixe o ZIP](https://github.com/inematds/ia-sem-censura-pronta/archive/refs/heads/main.zip) e extraia a pasta.
 - Python 3.10 ou superior: [instalador oficial](https://www.python.org/downloads/).
 - [Ollama instalado](https://ollama.com/download), no Linux, macOS ou Windows.
 - Para o modelo padrão: aproximadamente **18 GB de download**, **32 GB de RAM recomendados**, espaço livre para os pesos e recursos para o sistema. Contexto padrão2048; o consumo real depende do runtime. GPU é opcional: CPU funciona, com desempenho diferente.
